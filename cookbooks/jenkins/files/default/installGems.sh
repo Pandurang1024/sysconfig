@@ -1,4 +1,5 @@
 source /usr/local/rvm/scripts/rvm
+rvm use system
 cd /var/lib/jenkins/jobs
 unzip /var/chef/primefactors.zip
 chown -R jenkins:jenkins primefactors
