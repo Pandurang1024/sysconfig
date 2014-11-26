@@ -1,3 +1,5 @@
+
+#!/bin/bash
 source /usr/local/rvm/scripts/rvm
 sudo gem install cucumber
 sudo gem install nokogiri
