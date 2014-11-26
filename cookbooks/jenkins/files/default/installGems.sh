@@ -1,5 +1,9 @@
-#source /usr/local/rvm/scripts/rvm
-rvm use system
+source /usr/local/rvm/scripts/rvm
+sudo gem install cucumber
+sudo gem install nokogiri
+sudo gem install capybara
+sudo gem install rake
+sudo gem install selenium-webdriver
 cd /var/lib/jenkins/jobs
 unzip /var/chef/primefactors.zip
 chown -R jenkins:jenkins primefactors
